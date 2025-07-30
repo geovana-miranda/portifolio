@@ -1,4 +1,5 @@
 import HeroSection from "../components/HeroSection";
+import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <HeroSection />
       <Skills />
+      <Projects />
     </>
   );
 };

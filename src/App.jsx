@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <main className="border-2 mx-4 my-2">
+    <main className="border-2 mx-auto my-2 md:w-4xl lg:w-7xl">
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
