@@ -2,7 +2,7 @@ import profile from "../assets/profile.jpeg";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col items-center gap-6 py-10 md:flex-row md:justify-center md:gap-16">
+    <section className="bg-violet-400 flex flex-col items-center gap-6 py-12 md:flex-row md:justify-center md:gap-16">
       <div className="">
         <div className="relative">
           <div className="w-52 absolute top-1 inset-y-0 inset-x-4 bg-amber-400 rounded-full border-3 z-0"></div>
@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="flex flex-col items-center gap-4 font-semibold">
         <h2 className="text-xl md:text-2xl">Olá! Eu sou Geovana Miranda</h2>
         <h1 className="text-2xl md:text-4xl">Desenvolvedora Front-End</h1>
-        <button className="mt-4 bg-purple-300 text-black font-semibold py-2 px-8 rounded drop-shadow-[4px_4px_0_rgba(0,0,0,0.7)] md:px-16">
+        <button className="mt-4 bg-amber-400 text-black font-semibold py-2 px-8 border-2 rounded drop-shadow-[4px_4px_0_rgba(0,0,0,0.7)] md:px-16">
           Baixar CV
         </button>          
       </div>
