@@ -12,10 +12,10 @@ const HeroSection = () => {
       <div className="flex flex-col items-center gap-8 font-semibold text-white">
         <h2 className="text-2xl md:text-3xl">Olá! Eu sou Geovana Miranda</h2>
         <h1 className="text-2xl md:text-4xl">Desenvolvedora Front-End</h1>
-        <button className="flex items-center gap-2 mt-4 bg-lime-400 text-black font-bold py-2 px-8 border-3 rounded drop-shadow-[4px_4px_0_black] md:px-20 md:text-lg cursor-pointer hover:translate-x-[3px] hover:translate-y-[3px] transition">
+        <a href="/CV_Geovana.pdf" download className="flex items-center gap-2 mt-4 bg-lime-400 text-black font-bold py-2 px-8 border-3 rounded drop-shadow-[4px_4px_0_black] md:px-20 md:text-lg cursor-pointer hover:translate-x-[3px] hover:translate-y-[3px] transition">
           <span>Baixar CV</span>
           <i class="fa fa-download" aria-hidden="true"></i>
-        </button>
+        </a>
       </div>
     </section>
   );
