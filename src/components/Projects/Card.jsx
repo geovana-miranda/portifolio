@@ -1,6 +1,12 @@
+import { useInView } from "../../hooks/useInView";
+
 const Card = ({ name, image, description, color, colorButton, github, vercel }) => {
+const [ref, isVisible] = useInView();
+
   return (
-    <div className="w-80 h-auto md:w-md md:h-[550px] rounded-2xl border-2 border-black shadow-[6px_6px_0px_black] bg-white mb-6 flex flex-col">
+    <div ref={ref} className={`transition-all duration-[2s] ease-in-out ${
+            isVisible ? "opacity-100 scale-100 " : "opacity-0 scale-80"
+          } w-80 h-auto md:w-md md:h-[550px] rounded-2xl border-2 border-black shadow-[6px_6px_0px_black] bg-white mb-6 flex flex-col`}>
       <div className={`${color} rounded-t-2xl p-4 border-b-2`}>
         <h3 className="text-center text-xl font-bold border-black p-2">
           {name}
