@@ -11,7 +11,7 @@ const Form = () => {
 
     const whatsAppMessage = `Olá, meu nome é ${name}, ${message}`;
     const encodedMessage = encodeURIComponent(whatsAppMessage);
-    const whatsappURL = `https://wa.me/5511993348719?text=${encodedMessage}`;
+    const whatsappURL = `https://wa.me/5511941863282?text=${encodedMessage}`;
     window.open(whatsappURL, "_blank");
   };
 
