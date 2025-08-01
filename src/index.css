@@ -5,12 +5,12 @@
   --font-montserrat: "Montserrat", "sans-serif";
 }
 
-
 button:hover,
-a:hover {
+a:hover,
+input[type=submit]:hover {
   cursor: url("/cursor-pointer.png"), pointer;
 }
 
-input:hover, textarea:hover {
+input[type=text]:hover, textarea:hover {
   cursor: url("/cursor-text.png"), text;
 }
