@@ -2,18 +2,18 @@ import aboutme from "../../assets/aboutme.jpeg";
 
 const AboutMe = () => {
   return (
-    <section className="py-8 bg-pink-300 border-b-2">
-      <h2 className="text-3xl text-center font-bold mb-6 text-red-500">
+    <section className="py-16 bg-pink-300">
+      <h2 className="text-4xl text-center font-bold mb-6 text-red-500">
         Quem sou eu?
       </h2>
       <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center md:gap-10">
         <div>
-          <div className="relative">
-            <div className="w-56 absolute -top-4 inset-y-2 inset-x-3 bg-red-500 rounded-t-full border-3 z-0"></div>
+          <div className="relative my-6 md:my-0">
+            <div className="w-60 absolute -top-4 inset-y-2 inset-x-3 bg-red-500 rounded-t-full border-4 z-0 "></div>
             <img
               src={aboutme}
               alt=""
-              className="relative z-10 border-2 w-56 rounded-t-full"
+              className="relative z-10 border-2 w-60 rounded-t-full "
             />
           </div>
         </div>

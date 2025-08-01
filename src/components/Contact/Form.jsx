@@ -2,9 +2,9 @@ import React from "react";
 
 const Form = () => {
   return (
-    <form className="max-w-sm border-2 rounded-2xl flex flex-col items-start gap-4 p-8 bg-white shadow-[4px_4px_0px_black]">
+    <form className="w-80 mx-auto md:w-lg h-[380px] border-2 rounded-2xl flex flex-col items-start gap-4 p-8 bg-white shadow-[5px_5px_0px_black]">
       <label className="flex flex-col gap-2 w-full">
-        <span className="font-medium">Nome:</span>
+        <span className="font-bold">Nome:</span>
         <input
           type="text"
           className="border-2 rounded-lg py-1 pl-2 w-full shadow-[4px_4px_0px_black]"
@@ -12,7 +12,7 @@ const Form = () => {
         />
       </label>
       <label className="flex flex-col gap-2 w-full">
-        <span className="font-medium">Mensagem:</span>
+        <span className="font-bold">Mensagem:</span>
         <textarea
           type="text"
           rows={3}
@@ -23,7 +23,7 @@ const Form = () => {
       <input
         type="submit"
         value="Enviar"
-        className="bg-black text-white  py-[6px] mt-2 w-full rounded-lg font-medium"
+        className="bg-black text-white border-2 py-[6px] mt-2 w-full rounded-lg font-medium cursor-pointer hover:bg-white hover:text-black transition"
       />
       <span className="text-xs text-gray-600">Ao clicar em "Enviar", você será redirecionado para o WhatsApp com a mensagem preenchida automaticamente.</span>
     </form>

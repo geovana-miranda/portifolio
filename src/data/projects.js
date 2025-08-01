@@ -12,7 +12,8 @@ export const projects = [
       "App para leitores que desejam organizar suas leituras. Com ele, é possível buscar livros, adicioná-los à estante pessoal, avaliá-los, favoritá-los e escrever resenhas.",
     color: "bg-lime-200",
     colorButton: "bg-fuchsia-400",
-    colorButtonHover: "bg-fuchsia-600",
+    github: "https://github.com/geovana-miranda/minha-estante",
+    vercel: "https://minha-estante-kappa.vercel.app/"
   },
   {
     id: 2,
@@ -22,7 +23,8 @@ export const projects = [
       "Flashlearn é um app de flashcards para estudo, onde é possível criar baralhos, adicionar cards e revisar conteúdos de forma interativa.",
     color: "bg-cyan-200",
     colorButton: "bg-purple-500",
-    colorButtonHover: "bg-purple-700",
+    github: "https://github.com/geovana-miranda/flashlearn",
+    vercel: "https://flashlearn-one.vercel.app/"
   },
   {
     id: 3,
@@ -30,18 +32,21 @@ export const projects = [
     image: JSPhoneImg,
     description:
       "Mini sistema de apps em JavaScript com funcionalidades como calculadora, conversor de moedas, to-do list e cronômetro.",
-    color: "bg-yellow-200",
+    color: "bg-green-300",
     colorButton: "bg-red-500",
-    colorButtonHover: "bg-red-700",
+    github: "https://github.com/geovana-miranda/JSPhone",
+    vercel: "https://js-phone.vercel.app/"
+
   },
-    {
+  {
     id: 4,
     name: "Lola Cosmetics",
     image: lolacosmeticsImg,
-    description:
-      "Este é um clone da página da Lola Cosmetics.",
+    description: "Este é um clone da página da Lola Cosmetics.",
     color: "bg-pink-200",
     colorButton: "bg-green-500",
-    colorButtonHover: "bg-green-700",
+    github: "https://github.com/geovana-miranda/lolacosmetics-clone",
+    vercel: "https://lolacosmetics-clone.vercel.app/"
+
   },
 ];

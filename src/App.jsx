@@ -3,12 +3,8 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <main className="border-2 mx-auto my-2 md:w-4xl lg:w-7xl">
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <main className="font-montserrat border-3 mx-auto my-4 shadow-[5px_5px_0px_black] md:w-4xl lg:w-7xl">
+    <Home />
     </main>
   );
 }

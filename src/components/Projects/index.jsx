@@ -3,8 +3,8 @@ import { projects } from "../../data/projects";
 
 const Projects = () => {
   return (
-    <section className="py-8 bg-teal-300">
-      <h2 className="text-3xl text-center mb-12 font-bold">Projetos</h2>
+    <section className="py-16 bg-teal-300 border-y-4 border-dashed">
+      <h2 className="text-4xl text-center mb-12 font-bold text-blue-700">Projetos</h2>
       <div className="mx-auto flex justify-center gap-6 flex-wrap md:w-2xl lg:w-full">
         {projects.map((project) => (
         <Card
@@ -15,7 +15,8 @@ const Projects = () => {
           description={project.description}
           color={project.color}
           colorButton={project.colorButton}
-          colorButtonHover={project.colorButtonHover}
+          github={project.github}
+          vercel={project.vercel}
         />
       ))}
       </div>
