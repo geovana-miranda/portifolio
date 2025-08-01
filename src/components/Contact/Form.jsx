@@ -46,7 +46,7 @@ const Form = () => {
       <input
         type="submit"
         value="Enviar"
-        className="bg-black text-white border-2 py-[6px] mt-2 w-full rounded-lg font-medium cursor-pointer hover:bg-white hover:text-black transition"
+        className="bg-black text-white border-2 py-[6px] w-full rounded-lg font-medium cursor-pointer hover:bg-white hover:text-black transition"
       />
       <span className="text-xs text-gray-600">
         Ao clicar em "Enviar", você será redirecionado para o WhatsApp com a

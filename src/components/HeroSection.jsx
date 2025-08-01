@@ -9,7 +9,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="bg-indigo-500 flex flex-col items-center gap-6 py-20 md:flex-row md:justify-center md:gap-16">
+    <section className="bg-indigo-500 flex flex-col items-center gap-16 py-20 md:flex-row md:justify-center md:gap-16">
       <div
         className={`transition-all duration-[1.5s] ease ${
           visible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-30"
@@ -22,7 +22,7 @@ const HeroSection = () => {
       </div>
 
       <div
-        className={`flex flex-col items-center gap-8 font-semibold text-white transition-all duration-[1.5s] ease ${
+        className={`flex flex-col items-center gap-5 md:gap-8 font-semibold text-white transition-all duration-[1.5s] ease ${
           visible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-30"
         }`}
       >

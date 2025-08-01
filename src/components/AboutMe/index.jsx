@@ -2,7 +2,6 @@ import aboutme from "../../assets/aboutme.jpeg";
 import { useEffect, useState, useRef } from "react";
 
 const AboutMe = () => {
-
   const ref = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -21,18 +20,21 @@ const AboutMe = () => {
     };
   }, []);
 
-
   return (
     <section ref={ref} className="py-16 bg-pink-300">
-      <h2 className={`transition-all duration-[1s] ease-in-out ${
-            isVisible ? "opacity-100 scale-100 " : "opacity-0 scale-80"
-          } text-4xl text-center font-bold mb-6 text-red-500`}>
+      <h2
+        className={`transition-all duration-[1s] ease-in-out ${
+          isVisible ? "opacity-100 scale-100 " : "opacity-0 scale-80"
+        } text-4xl text-center font-bold mb-12 text-red-500`}
+      >
         Quem sou eu?
       </h2>
       <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center md:gap-10">
         <div
           className={`transition-all duration-[1.5s] ease-in-out ${
-            isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-30"
+            isVisible
+              ? "opacity-100 translate-x-0"
+              : "opacity-0 -translate-x-30"
           }`}
         >
           <div className="relative my-6 md:my-0">
