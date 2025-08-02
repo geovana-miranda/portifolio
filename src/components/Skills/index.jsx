@@ -1,17 +1,15 @@
 import { skills } from "../../data/skills";
+import { useInView } from "../../hooks/useInView";
 import Skill from "./Skill";
-import { useEffect, useState } from "react";
 
 const Skills = () => {
-  const [visible, setVisible] = useState(false);
-  useEffect(() => {
-    setVisible(true);
-  }, []);
+  const [ref, isVisible] = useInView();
+
   return (
-    <section className="py-20 mx-auto border-y-4 border-dashed bg-green-300">
+    <section ref={ref} className="py-20 mx-auto border-y-4 border-dashed bg-green-300">
       <h2
         className={`transition-all duration-[1s] ease-in-out ${
-          visible ? "opacity-100 scale-100 " : "opacity-0 scale-80"
+          isVisible ? "opacity-100 scale-100 " : "opacity-0 scale-80"
         } text-4xl text-center mb-12 font-bold`}
       >
         Habilidades

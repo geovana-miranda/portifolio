@@ -1,24 +1,8 @@
 import aboutme from "../../assets/aboutme.jpeg";
-import { useEffect, useState, useRef } from "react";
+import { useInView } from "../../hooks/useInView";
 
 const AboutMe = () => {
-  const ref = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) setIsVisible(true);
-      },
-      { threshold: 0.1 }
-    );
-
-    if (ref.current) observer.observe(ref.current);
-
-    return () => {
-      if (ref.current) observer.unobserve(ref.current);
-    };
-  }, []);
+  const [ref, isVisible] = useInView();
 
   return (
     <section ref={ref} className="py-16 bg-pink-300">
