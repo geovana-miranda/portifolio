@@ -25,7 +25,7 @@ const [ref, isVisible] = useInView();
             target="_blank"
             className={`flex items-center border-2 border-black text-lg px-2 shadow-[2px_2px_0px_black] cursor-pointer hover:scale-110 transition`}
           >
-            <i class="fa fa-code" aria-hidden="true"></i>{" "}
+            <i className="fa fa-code" aria-hidden="true"></i>{" "}
           </a>
           <a
             href={vercel}
@@ -33,7 +33,7 @@ const [ref, isVisible] = useInView();
             className={`${colorButton} text-white flex items-center gap-2 font-bold border-2 border-black px-3 py-1 shadow-[4px_4px_0px_black] hover:scale-110 transition`}
           >
             Visitar
-            <i class="fa fa-link" aria-hidden="true"></i>
+            <i className="fa fa-link" aria-hidden="true"></i>
           </a>
         </div>
       </div>

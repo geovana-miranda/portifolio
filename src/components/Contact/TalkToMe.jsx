@@ -10,7 +10,7 @@ const TalkToMe = () => {
         <div className="flex flex-col items-start">
           <div className="flex items-center gap-2">
             <div className="text-green-500 text-xl">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <i className="fa fa-envelope" aria-hidden="true"></i>
             </div>
             <p className="text-base text-center font-semibold">
               182geovana@gmail.com
@@ -18,7 +18,7 @@ const TalkToMe = () => {
           </div>
           <div className="flex items-center gap-2">
             <div className="text-green-500 text-xl">
-              <i class="fa fa-phone-square" aria-hidden="true"></i>{" "}
+              <i className="fa fa-phone-square" aria-hidden="true"></i>{" "}
             </div>
             <p className="text-base text-center font-semibold">
               (11) 9-4186-3282

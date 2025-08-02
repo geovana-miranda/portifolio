@@ -34,7 +34,7 @@ const HeroSection = () => {
           className="flex items-center gap-2 mt-4 bg-lime-400 text-black font-bold py-2 px-8 border-3 rounded drop-shadow-[4px_4px_0_black] md:px-20 md:text-lg cursor-pointer hover:translate-x-[3px] hover:translate-y-[3px] transition"
         >
           <span>Baixar CV</span>
-          <i class="fa fa-download" aria-hidden="true"></i>
+          <i className="fa fa-download" aria-hidden="true"></i>
         </a>
       </div>
     </section>
