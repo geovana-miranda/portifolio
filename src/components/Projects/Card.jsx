@@ -8,9 +8,9 @@ const [ref, isVisible] = useInView();
             isVisible ? "opacity-100 scale-100 " : "opacity-0 scale-80"
           } w-80 h-auto md:w-md md:h-[550px] rounded-2xl border-2 border-black shadow-[6px_6px_0px_black] bg-white mb-6 flex flex-col`}>
       <div className={`${color} rounded-t-2xl p-4 border-b-2`}>
-        <h3 className="text-center text-xl font-bold border-black p-2">
+        <span className="text-center text-xl font-bold border-black p-2">
           {name}
-        </h3>
+        </span>
       </div>
       <img
         src={image}
@@ -22,6 +22,7 @@ const [ref, isVisible] = useInView();
         <div className="flex justify-end gap-6 mt-auto">
           <a
             href={github}
+            aria-label={`Visite o repositório do projeto ${name}`}
             target="_blank"
             className={`flex items-center border-2 border-black text-lg px-2 shadow-[2px_2px_0px_black] cursor-pointer hover:scale-110 transition`}
           >
@@ -30,6 +31,7 @@ const [ref, isVisible] = useInView();
           <a
             href={vercel}
             target="_blank"
+            aria-label={`Visite ${name}`}
             className={`${colorButton} text-white flex items-center gap-2 font-bold border-2 border-black px-3 py-1 shadow-[4px_4px_0px_black] hover:scale-110 transition`}
           >
             Visitar
