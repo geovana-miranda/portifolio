@@ -17,7 +17,7 @@ const HeroSection = () => {
       >
         <div className="relative">
           <div className="w-64 absolute top-4 -inset-y-4 inset-x-5 bg-lime-400 border-3 z-0 shadow-[5px_5px_0px_black]"></div>
-          <img src={profile} alt="" className="relative z-10 border-3 w-64" />
+          <img src={profile} alt="Minha foto" className="relative z-10 border-3 w-64" />
         </div>
       </div>
 

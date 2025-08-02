@@ -25,7 +25,7 @@ const AboutMe = () => {
             <div className="w-60 absolute -top-4 inset-y-2 inset-x-3 bg-red-500 rounded-t-full border-4 z-0 "></div>
             <img
               src={aboutme}
-              alt=""
+              alt="Minha foto"
               className="relative z-10 border-2 w-60 rounded-t-full "
             />
           </div>
