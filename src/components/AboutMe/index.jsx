@@ -52,20 +52,10 @@ const AboutMe = () => {
           } flex flex-col gap-8 text-center px-8 text-sm md:w-lg md:px-0 md:text-base lg:w-2xl`}
         >
           <p>
-            Sou estudante de{" "}
-            <span className="bg-red-400 px-2 font-medium">
-              Sistemas para Internet na PUC Minas
-            </span>
-            e estou em busca de uma oportunidade de estágio em
-            <span className="bg-red-400 px-2 font-medium">
-              desenvolvimento front-end
-            </span>
-            para iniciar minha trajetória profissional na área de tecnologia.
+            Sou Geovana Miranda, desenvolvedora Front-End focada em criar interfaces modernas, funcionais e criativas.
           </p>
           <p>
-            Tenho como objetivo construir uma carreira sólida como
-            desenvolvedora, contribuindo com projetos que impactem positivamente
-            a vida das pessoas.
+            Sou estudante de <span className="bg-red-400 px-2 font-medium">Sistemas para Internet na PUC Minas</span> e estou sempre buscando evoluir por meio de projetos, cursos e desafios práticos.
           </p>
         </div>
       </div>
