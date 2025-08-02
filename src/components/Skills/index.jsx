@@ -16,7 +16,7 @@ const Skills = () => {
       </h2>
       <div className="mx-auto flex justify-center gap-6 flex-wrap md:w-lg lg:w-full">
         {skills.map((skill) => (
-          <Skill icon={skill.icon} text={skill.text} color={skill.color} />
+          <Skill key={skill.text} icon={skill.icon} text={skill.text} color={skill.color} />
         ))}
       </div>
     </section>
