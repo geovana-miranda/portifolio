@@ -1,4 +1,4 @@
-import aboutme from "../../assets/aboutme.jpeg";
+import aboutme from "../../assets/aboutme.webp";
 import { useInView } from "../../hooks/useInView";
 
 const AboutMe = () => {
@@ -26,7 +26,8 @@ const AboutMe = () => {
             <img
               src={aboutme}
               alt="Minha foto"
-              className="relative z-10 border-2 w-60 rounded-t-full "
+              className="relative z-10 border-2 w-60 h-60 rounded-t-full"
+              loading="lazy"
             />
           </div>
         </div>

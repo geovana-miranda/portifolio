@@ -1,7 +1,7 @@
-import minhaEstanteImg from "../assets/projects/minhaestante/home.png";
-import flashlearnImg from "../assets/projects/flashlearn/flashlearn.png";
-import JSPhoneImg from "../assets/projects/JSPhone/screen_home.png";
-import lolacosmeticsImg from "../assets/projects/lolacosmetics.png";
+import minhaEstanteImg from "../assets/projects/minhaestante.webp";
+import flashlearnImg from "../assets/projects/flashlearn.webp";
+import JSPhoneImg from "../assets/projects/jsphone.webp";
+import lolacosmeticsImg from "../assets/projects/lolacosmetics.webp";
 
 export const projects = [
   {

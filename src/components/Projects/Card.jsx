@@ -16,6 +16,7 @@ const [ref, isVisible] = useInView();
         src={image}
         alt="preview do projeto"
         className="h-[200px] md:h-[280px] w-full object-contain "
+        loading="lazy"
       />
       <div className="p-4 md:px-8 md:py-6 flex flex-col flex-1">
         <p className="text-sm mb-6">{description}</p>
